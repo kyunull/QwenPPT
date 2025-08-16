@@ -16,4 +16,3 @@ if __name__ == '__main__':
     out = parse_string(md_content)
     for i in range(1,3):#i代表不同的模板
         Tree2PPT(md_content,"./my_ppt_mode/"+str(i),save_path="./myppt/"+task_name+"_mode"+str(i)+".pptx")
-
